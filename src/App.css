@@ -13,8 +13,8 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
+.app {
+  background-color: #ff8c00;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +35,34 @@
   to {
     transform: rotate(360deg);
   }
+}
+ button{
+
+
+  background-color:#1aa762;
+  color: var(--primary);
+  border-radius: 25px;
+  font-weight: 700;
+  border: none;
+  font-size: 1rem;
+  line-height: 1.1;
+ }
+
+ button:hover {
+  background-color: #ffffff;
+  opacity: 1;
+  cursor: pointer;
+  color:#1aa762;
+}
+
+.filter{
+display: flex;
+  padding: 20px;;
+  flex-direction: column;
+
+
+}
+h1{
+  text-decoration:overline;
+  
 }
