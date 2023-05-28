@@ -2,6 +2,7 @@
 
 import React from 'react';
 import MovieCard from './MovieCard';
+import Filter from './Filter';
 
 const MovieList = ({ movies }) => {
   return (
@@ -9,7 +10,9 @@ const MovieList = ({ movies }) => {
       {movies.map((movie) => (
         <MovieCard key={movie.id} movie={movie} />
       ))}
+       <Filter/>
     </div>
+     
   );
 };
 

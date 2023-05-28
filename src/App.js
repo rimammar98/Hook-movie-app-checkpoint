@@ -7,6 +7,9 @@ import { MovieDetails } from './component/MovieDetails';
 import movies from './data/Movies';
 import './App.css';
 
+
+
+
 const App = () => {
     return (
       <> 
